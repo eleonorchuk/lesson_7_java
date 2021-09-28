@@ -32,4 +32,10 @@ public class Plate {
         }
         return false;
     }
+
+    public void addFood(int n)
+    {
+        System.out.println("plate add Food: " + n);
+        food += n;
+    }
 }

@@ -32,5 +32,14 @@ public class Main {
         {
             cats[i].fullnessInfo();
         }
+
+        // task 5
+        catsPlate.addFood(100);
+        cats[3].eat(catsPlate);
+        cats[4].eat(catsPlate);
+        for(int i = 0; i < numOfCats; i++)
+        {
+            cats[i].fullnessInfo();
+        }
     }
 }
