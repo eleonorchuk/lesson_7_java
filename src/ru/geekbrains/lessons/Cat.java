@@ -29,4 +29,9 @@ public class Cat {
         System.out.println("cate get Appetite: "+ name + " " + appetite);
         return appetite;
     }
+
+    public void fullnessInfo()
+    {
+        System.out.println("cat " + name + " fullness is " + fullness);
+    }
 }
